@@ -1,0 +1,322 @@
+:root{
+    --mainclr:	#0463FA;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    box-sizing: border-box;
+    transition: 2s;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.header{
+    height: 17vh;
+    background-color: var(--mainclr);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.ttt{
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.ttt img{
+    padding-left: 50px;
+}
+ul li{
+    padding: 4px 10px;
+    margin: auto;
+    position: relative;
+    display: inline-block;
+}
+ul li a{
+    cursor: pointer;
+    padding-left:40px ;
+    padding-right: 40px;
+    padding: 8px;
+    text-transform:uppercase ;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    transition: 0.2s;
+}
+ul li:hover{
+    color: white;
+    background-color: black;
+}
+
+.txt-box{
+    color: rgb(0, 0, 0);
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.txt-box h1{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 3%;
+}
+.txt-box p{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 5%; 
+}
+.wbname{
+    color: white;
+    font-weight: 900;
+    text-shadow: 30;
+    margin-right: 485px;
+    margin-bottom: 7px;
+}
+.theory{
+    color: rgb(255, 255, 255);
+    padding-right: 55%;
+}
+.theory p{
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    word-spacing: 11px;
+    text-align: justify;
+    margin-bottom: 70px;
+}
+.theory a{
+    margin-right: 450px;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 13px;
+    transition: 0.4s;
+}
+.theory a:hover{
+    color: rgb(255, 255, 255);
+    background-color: var(--mainclr);
+}
+.home{
+    width: 100%;
+    height: 83vh;
+    background-size: cover;
+    background-image:linear-gradient(rgba(211, 247, 207, 0.75),rgba(211, 247, 207, 0.75)),url(bg.jpg) ;
+}
+.left-content h1{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 500;
+    font-size: 38px;
+}
+.left-content{
+    
+    margin-bottom: 60px;
+}
+.left-content h3{
+    font-weight: 600;
+    word-spacing:5px ;
+    padding: 35px;
+    margin-left: 15px;
+}
+.left-content p{
+    padding-left: 50px;
+    width: 80%;
+    text-align: justify;
+    word-spacing: 5px;
+    font-weight: 400;
+}
+.left-content i{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.problems{
+    list-style-type: circle;
+    padding-left: 65px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.problems li{
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.left-content a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    margin-left: 50px;
+    border-radius: 50px;
+    transition: 0.5s ease;
+}
+.left-content a:hover{
+    color: white;
+    background-color: black;
+}
+.left-content p{
+    padding-bottom: 20px;
+}
+.dc1{
+    margin: 70px;
+    height: auto;
+    width: 500px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.right-content{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: var(--mainclr);
+}
+.service-content{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    background-color:var(--mainclr);
+    color: rgb(0, 0, 0);
+}
+.footer h4{
+    font-weight: 500;
+    font-size: 33px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer h5{
+    font-weight: 500;
+    font-size: 17px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.logos{
+    padding-top: 20px;
+}
+.logos i{
+    margin: 20px;
+    padding-top: 30px;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    background-size: 110px;
+}
+.childrens-mentalhealth{
+    margin-bottom: 100px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.bot-right-content{
+    background-color: var(--mainclr);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.us{
+    width: 75%;
+    text-align:justify;
+    margin: auto;
+}
+.us ol{
+    font-weight: 600;
+    padding-left: 35px;
+    list-style: disc;
+    margin: auto;
+}
+.care h1{
+    color: var(--mainclr);
+    font-size: 50px;
+    padding-left: 50px;
+}
+.care p{
+    padding-left: 50px;
+    width: 75%;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 40px;
+}
+.dis h3{
+    padding: 50px;
+}
+.dis p{
+    padding-left: 50px;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.problems{
+    list-style-type: disc;
+}
+.problems li{
+    font-weight: 600;
+}
+.dis a{
+    padding-left: 50px;
+}
+.dis a{
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    margin-left: 50px;
+    border-radius: 50px;
+    transition: 0.5s ease;
+    
+}
+.dis a:hover{
+    color: white;
+    background-color: black;
+}
+.dis{
+    padding-bottom: 60px;
+}
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+    border-radius: 20px;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 70px;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col div .fa{
+    margin: 30px;
+    color: var(--mainclr);
+}
+.contact-col div h5{
+    
+    font-size: large;
+}
+.contact-col div a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    font-weight: 900;
+}
+.contact-col div p{
+    padding-top: 17px;
+}

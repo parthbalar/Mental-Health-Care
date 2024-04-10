@@ -27,7 +27,7 @@
    }
 
 
-  // close.addEventListener("click",function(){
-  //   loginPopup.classList.remove("show");
-  // })
+  close.addEventListener("click",function(){
+  loginPopup.classList.remove("show");
+  })
 
